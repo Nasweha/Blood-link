@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color: white;
+    /* height: ; */
+    padding: 1rem;
+    margin: 0;
+}
+.icon-bg{
+    background-color: red;
+}

@@ -1,0 +1,54 @@
+.hospital{
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+.hospital:hover{
+    background-color: #D9D9D9;
+    color: black;
+}
+.logo{
+    visibility: hidden;
+}
+.signup{
+    color: white;
+    background: red;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.signup:hover{
+    color: white;
+    background: rgba(255, 0, 0, 0.664);
+}
+.loginHide{
+    display: flex;
+}
+.underLogin{
+    display: none;
+}
+.request{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    
+    .logo{
+        visibility: visible;
+    }
+    .loginHide{
+        display: none;
+    }
+
+    
+    .underLogin{
+        display: flex;
+        margin-top: 10px;
+    }
+    .request{
+        display: flex;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+    .reqBtn{
+        display: none;
+    }
+}
